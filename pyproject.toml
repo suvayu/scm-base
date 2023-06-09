@@ -1,6 +1,7 @@
 [project]
 name = "sa-baz"
 dynamic = ["version"]
+dependencies = ["sqlalchemy"]
 
 [build-system]
 requires = ["setuptools>=64", "setuptools_scm[toml]>=6.2", "wheel", "build"]
